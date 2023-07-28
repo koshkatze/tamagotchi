@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+body {
+    background-color: goldenrod;
+    height: 100%;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 1em;
+}
+
+#tamagotchi {
+
+}
+
+.row {
+    height: 25px;
+    display: flex;
+}
+
+.cell {
+    cursor: pointer;
+}
